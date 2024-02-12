@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerWrap{
+  @apply container mx-auto max-w-4xl;
+  padding-left: 0%;
+}
+
+.logo{
+  
+  width: 50px;
+  
+}
+.login{
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.content{
+  margin-top: -50px;
+}
+.send-div{
+  background-color: #04042b;
+}
+.navbar{
+      backdrop-filter: blur(12px) saturate(142%);
+    -webkit-backdrop-filter: blur(12px) saturate(142%);
+   background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+color: white;
+border: none;
+
+
+    
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.send-btn{
+  backdrop-filter: blur(12px) saturate(142%);
+    -webkit-backdrop-filter: blur(12px) saturate(142%);
+   background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg{
+backdrop-filter: blur(2px) saturate(121%);
+    -webkit-backdrop-filter: blur(2px) saturate(121%);
+    background-color: rgba(255, 255, 255, 0.32);
+    border: none;
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
+}
