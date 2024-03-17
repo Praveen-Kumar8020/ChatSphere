@@ -10,4 +10,3 @@ if(!currentUser){
 }
   return children;
 }
-
